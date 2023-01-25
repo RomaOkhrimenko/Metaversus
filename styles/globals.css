@@ -10,6 +10,25 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #1A232E;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #1A232E;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background: #314661;
+}
+
 .glassmorphism {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
